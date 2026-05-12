@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const logger = require('./logger');
 
+// Connection to mongodb
 const connectDB = async () => {
   const maxRetries = 5;
   let retries = 0;
